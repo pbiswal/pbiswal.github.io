@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Priybrata Biswal <Life />
+title: Priybrata Biswal
 email: pbiswal.3d@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hey, Welcome to my personal blog. This is where i ramble and share my thoughts to the world. 
@@ -31,6 +31,7 @@ github_username:  pbiswal
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 include: [".well-known"]
 
